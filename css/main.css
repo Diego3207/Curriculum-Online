@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: "Noto sans", sans-serif;
+}
+h1{
+	text-align: center;
+	color: white;
+	font-size: 3.0em;
+}
+h2{
+	/*font-style: italic;*/
+	color: #008F8C;
+	font-size: 2em;
+}
+p{
+	font-size: 1.2em;
+	line-height: 1.7em;
+}
+
+/********************************************************************/
+/*CABECERA IMAGEN*/
+header{
+	height: 45em;
+	background-image: url("../src/img/personal.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	opacity: 0.9;
+}
+header:before{
+	content: "";
+	width: 100%;
+	height: 45em;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	background: linear-gradient(120deg, #0FC2C0, #023535);
+	opacity: 0.7;
+	z-index: -1;
+}
+#tituloNombre{
+	padding-top: 200px;
+}
+.tituloProgramacion{
+	color: #042940;
+	margin: 1em auto;
+	border-right: 2px solid white;
+	white-space: nowrap;
+	overflow: hidden;
+	transform: translateY(-50%);
+}
+.animacionEscribir{
+	animation: escribir 1.5s steps(44) 1s 1 normal both,
+              lineaEscribir 500ms steps(44) infinite normal;
+}
+/*ANIMACIONES*/
+@keyframes escribir {
+	from {width: 0;}
+	to {width: 6.5em;}
+}
+@keyframes lineaEscribir {
+	from {border-right-color: white;}
+	to {border-right-color: transparent;}
+}
+/********************************************************************/
+
+/********************************************************************/
+/*INTRODUCCION*/
+#tituloIntroduccion{
+	width: 300px;
+	height: 50px;
+	padding-left: 45px;
+	margin-top: 5em;
+	margin-left: 6em;
+	border: 3px solid #015958;
+	border-radius: 10px;
+	box-shadow: -20px 20px 0px #0FC2C0;
+}
+.contIntroduccion{
+	width: 80%;
+	height: auto;
+	margin-top: 2em;
+	margin-left: 15%;
+	/*border: darkcyan 1px solid;*/
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: space-around;
+}
+.itIntroduccionLinea{
+	width: 60%;
+	height: 7px;
+	padding-top: 40px;
+	margin-left: auto;
+	border-bottom: #0FC2C0 5px solid;
+}
+.itIntroduccionParrafo{
+	position: relative;
+	top: 20px;
+	width: 100%;
+	text-align: justify;
+}
+/********************************************************************/
+
+/********************************************************************/
+/*CARRERA ACADEMICA (EDUCACION)*/
+.contCarreraAcademica{
+	width: 100%;
+	height: 500px;
+	margin-top: 15em;
+	/*border: 1px solid darkcyan;*/
+	display: flex;
+}
+.itContCarrera{
+	width: 45%;
+	height: 500px;
+	/*margin-left: 4em;*/
+
+	background: #0CABA8;
+	display: flex;
+	flex-direction: column;
+}
+.itTituloCarrera{
+	padding-right: 1em;
+	padding-top: 7px;
+	padding-left: 7px;
+	margin-left: auto;
+	color: #164773;
+	background: white;
+	border: 3px solid #164773;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+.itContPreparatoria{
+	/*padding-top: 20px;*/
+	/*padding-bottom: 15px;*/
+	height: 454px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	/*border: 1px solid red;*/
+}
+.itPreparatoria{
+	font-size: 1.6em;
+	/*border: 1px solid white;*/
+	margin-left: 1em;
+	color: white;
+}
+.itContAcademica{
+	width: 55%;
+	height: 500px;
+	/*margin-right: 4em;*/
+
+	display: flex;
+	flex-direction: column;
+	background: #164773;
+}
+.itTituloAcademica{
+	color: #164773;
+	padding-top: 7px;
+	padding-left: 1em;
+	padding-right: 7px;
+	margin-right: auto;
+	border: 3px solid #164773;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background: white;
+}
+.itContUniversidad{
+	/*padding-bottom: 15px;*/
+	height: 454px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.itUniversidad{
+	font-size: 1.6em;
+	/*border: 1px solid white;*/
+	margin-left: auto;
+	margin-right: 1em;
+	color: white;
+}
+/********************************************************************/
+
+/********************************************************************/
+/*FRASE*/
+.frase{
+	margin-top: 6em;
+	width: 25em;
+	margin: 5em auto;
+	/*border: 1px solid red;*/
+	font-size: 2.5em;
+	text-align: center;
+}
+/********************************************************************/
+
+/********************************************************************/
+/*CONOCIMIENTOS*/
+.tituloConocimientos{
+	width: 300px;
+	padding-left: 70px;
+	margin-top: 10em;
+	margin-left: 6em;
+	margin-bottom: 2em;
+	border: 3px solid #164773;
+	border-radius: 10px;
+	box-shadow: -20px 20px #0FC2C0;
+}
+.contConocimientosFondo{
+	width: 100%;
+	background: #164773;
+	/*border: 1px solid red;*/
+}
+.itContConocimientos{
+	padding-top: 3em;
+	width: 1100px;
+	height: 700px;
+	display: flex;
+	justify-content: space-evenly;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	/*border: 1px solid red;*/
+}
+.itCirculo{
+	width: 300px;
+	height: 300px;
+	background: #0CABA8;
+	border-radius: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.imagenConocimientos{
+	padding-left: 6.2em;
+}
+.progresoConocimientos{
+	padding-top: 0.7em;
+	padding-left: 4.8em;
+	font-size: 1.6em;
+	color: white;
+}
+.nombreHtml5{
+	padding-top: 0.5em;
+	padding-left: 4.2em;
+	font-size: 1.6em;
+	color: white;
+}
+.nombreCss3{
+	padding-top: 0.5em;
+	padding-left: 4.4em;
+	font-size: 1.6em;
+	color: white;
+}
+.nombreCplus{
+	padding-top: 0.5em;
+	padding-left: 4.9em;
+	font-size: 1.6em;
+	color: white;
+}
+.nombreC{
+	padding-top: 0.5em;
+	padding-left: 5.2em;
+	font-size: 1.6em;
+	color: white;
+}
+.nombreMysql{
+	padding-top: 0.5em;
+	padding-left: 4.3em;
+	font-size: 1.6em;
+	color: white;
+}
+.nombrePython{
+	padding-top: 0.5em;
+	padding-left: 4.3em;
+	font-size: 1.6em;
+	color: white;
+}
+/********************************************************************/
+
+/********************************************************************/
+/*APTITUDES*/
+.tituloAptitudes{
+	width: 250px;
+	padding-left: 90px;
+	margin-top: 10em;
+	margin-left: 6em;
+	margin-bottom: 2em;
+	border: 3px solid #015958;
+	border-radius: 10px;
+	box-shadow: -20px 20px #0FC2C0;
+}
+.contAptitudes{
+	width: 100%;
+	display: flex;
+}
+.lineaIzqAptitudes{
+	width: 30%;
+	border-top: 7px solid #023535;
+}
+.cuadroAptitudes{
+	width: 40%;
+	height: 20em;
+	margin: 0 auto;
+	border: 7px solid #023535;
+	border-radius: 0 25px 0 25px;
+}
+.parrafoAptitudes{
+	padding: 3em 2em;
+	font-size: 1.6em;
+	font-family: 'Arimo', sans-serif;
+}
+.lineaDerAptitudes{
+	width: 30%;
+	border-bottom: 7px solid #023535;
+}
+/********************************************************************/
+/*EXPERIENCIA LABORAL*/
+.tituloExperiencia{
+	width: 400px;
+	padding-left: 90px;
+	margin-top: 10em;
+	margin-left: 6em;
+	margin-bottom: 2em;
+	border: 3px solid #015958;
+	border-radius: 10px;
+	box-shadow: -20px 20px #0FC2C0;
+}
+.contExperiencia{
+	width: 100%;
+	height: 40em;
+	display: flex;
+}
+.itContCommunity{
+	width: 50%;
+	background: #0CABA8;
+}
+.itTituloComunnity{
+	padding-left: 2em;
+	padding-top: 3em;
+	color: white;
+	font-size: 1.8em;
+}
+.itLineaCommunity{
+	margin: 3em;
+	/*border: 4px solid #023535;*/
+	border-bottom: 5px solid #023535;
+	width: 75%;
+}
+.itParrafoCommunity{
+	color: white;
+	font-size: 1.6em;
+	width: 90%;
+	margin: 0 auto;
+	text-align: justify
+}
+.contVendedor{
+	width: 50%;
+}
+.itTituloVendedor{
+	padding-left: 2em;
+	padding-top: 3em;
+	color: #023535;
+	font-size: 1.8em;
+}
+.itLineaVendedor{
+	margin: 3em;
+	/*border: 4px solid #0FC2C0;*/
+	border-bottom: 5px solid #0FC2C0;
+	width: 75%;
+}
+.itParrafoVendedor{
+	color: #023535;
+	font-size: 1.6em;
+	width: 90%;
+	margin: 0 auto;
+	text-align: justify
+}
+/********************************************************************/
+
+/********************************************************************/
+/*CONTACTO PERSONAL*/
+footer{
+	width: 100%;
+	height: 30em;
+	/*display: flex;*/
+	/*flex-direction: row;*/
+}
+#contRedesSociales{
+}
+#tituloRedesSociales{
+	font-size: 3em;
+	padding-left: 7em;
+	padding-top: 3em;
+}
+.lineaRedes{
+	width: 15em;
+}
+img[title = "Facebook Icono"]{
+	padding-top: 3em;
+	padding-left: 21em;
+	width: 10%;
+}
+.tituloNombre{
+	font-size: 3em;
+	padding-left: 9em;
+	padding-top: 3em;
+}
+.numeroPersonal{
+	font-size: 1.5em;
+	padding-left: 18em;
+	padding-top: 2em;
+	color: #8B8B8B;
+}
+.correoPersonal{
+	font-size: 1.5em;
+	padding-left: 18em;
+	padding-top: 1em;
+	color: #8B8B8B;
+}
+/********************************************************************/
+
+#derechosReservados{
+	text-align: center;
+}
+
+/********************************************************************/
+/*FORMATO RESPONSIVO*/
+@media only screen and (max-width: 580px) {
+	/********************************************************************/
+	/*CABECERA IMAGEN*/
+	header:before{
+		height: 32em;
+	}
+	/********************************************************************/
+
+	/********************************************************************/
+	/*INTRODUCCION*/
+	/********************************************************************/
+	#tituloIntroduccion
+	{
+		margin-left: 2em;
+	}
+	.contIntroduccion
+	{
+		margin-left: 2em;
+	}
+	.itIntroduccionLinea
+	{
+		padding-top: 4em;
+	}
+	/********************************************************************/
+	/*CARRERA ACADEMICA (EDUCACION)*/
+	.contCarreraAcademica{
+		flex-direction: column;
+	}
+	.itContCarrera{
+		width: 100%;
+	}
+	.itContAcademica{
+		width: 100%;
+	}
+	.itUniversidad{
+		margin-left: 1em;
+	}
+	/********************************************************************/
+
+	/********************************************************************/
+	/*FRASE*/
+	.frase{
+		margin-top: 20em;
+		width: 100%;
+		font-size: 2.3em;
+	}
+	/********************************************************************/
+	/********************************************************************/
+	/*CONOCIMIENTOS*/
+	.tituloConocimientos{
+		margin-left: 3em;
+	}
+	.contConocimientosFondo{
+		width: 100%;
+	}
+	.itContConocimientos{
+		width: 100%;
+		flex-direction: row;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+	}
+	.itCirculo{
+		/*border: 1px solid yellow;*/
+		margin-left: 1em;
+		width: 200px;
+		height: 200px;
+	}
+	.imagenConocimientos{
+		padding-left: 4em;
+	}
+	.imagenConocimientos img{
+		width: 50%;
+	}
+	.nombreHtml5{
+		padding-left: 3.7em;
+		font-size: 1.2em;
+	}
+
+	.progresoConocimientos{
+		padding-left: 4.4em;
+		font-size: 1.2em;
+	}
+	/********************************************************************/
+	/*EXPERIENCIA LABORAL*/
+	.tituloExperiencia{
+		margin-left: 1em;
+		width: 7em;
+	}
+	/********************************************************************/
+
+	/********************************************************************/
+	/*APTITUDES*/
+	.tituloAptitudes{
+	margin-left: 1em;
+	}
+	/********************************************************************/
+
+	/********************************************************************/
+	/*CONTACTO PERSONAL*/
+	footer{
+		flex-direction: column;
+	}
+	#tituloRedesSociales{
+		padding-left: 1em;
+	}
+	.tituloNombre{
+		padding-left: 1em;
+		border: 1px solid red;
+	}
+	.numeroPersonal{
+		padding-left: 1em;
+	}
+	.correoPersonal{
+		padding-left: 1em;
+	}
+	/********************************************************************/
+}
