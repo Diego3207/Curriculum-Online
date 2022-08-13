@@ -436,7 +436,7 @@ img[title = "Facebook Icono"]{
 	/********************************************************************/
 	/*CABECERA IMAGEN*/
 	header:before{
-		height: 30em;
+		height: 27em;
 	}
 	/********************************************************************/
 
@@ -482,7 +482,7 @@ img[title = "Facebook Icono"]{
 	/********************************************************************/
 	/*CONOCIMIENTOS*/
 	.tituloConocimientos{
-		margin-left: 1.5em;
+		margin-left: 0.7em;
 	}
 	.contConocimientosFondo{
 		width: 100%;
