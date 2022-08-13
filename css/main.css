@@ -436,7 +436,7 @@ img[title = "Facebook Icono"]{
 	/********************************************************************/
 	/*CABECERA IMAGEN*/
 	header:before{
-		height: 32em;
+		height: 30em;
 	}
 	/********************************************************************/
 
@@ -482,7 +482,7 @@ img[title = "Facebook Icono"]{
 	/********************************************************************/
 	/*CONOCIMIENTOS*/
 	.tituloConocimientos{
-		margin-left: 3em;
+		margin-left: 1.5em;
 	}
 	.contConocimientosFondo{
 		width: 100%;
@@ -496,8 +496,8 @@ img[title = "Facebook Icono"]{
 	.itCirculo{
 		/*border: 1px solid yellow;*/
 		margin-left: 1em;
-		width: 200px;
-		height: 200px;
+		width: 150px;
+		height: 150px;
 	}
 	.imagenConocimientos{
 		padding-left: 4em;
