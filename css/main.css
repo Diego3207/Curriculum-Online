@@ -587,6 +587,10 @@ img[title = "Facebook Icono"]{
 	footer{
 		display: block;
 	}
+	#contLinea
+	{
+		margin-left: 0em;
+	}
 	#tituloRedesSociales{
 		padding-left: 1em;
 	}
