@@ -590,21 +590,28 @@ img[title = "Facebook Icono"]{
 	#contLinea
 	{
 		margin-left: 0em;
+		border-left: 5px solid white;
 	}
 	#tituloRedesSociales{
-		padding-left: 1em;
+		padding-left: 0.3em;
 	}
 	#contRedesSociales{
 		width: 100%;
+		height: auto;
+	}
+	#contContacto
+	{
+		margin-top: 1em;
+		width: 100%;
 	}
 	#tituloContacto{
-		padding-left: 1em;
+		padding-left: 5.5em;
 	}
 	#numeroPersonal{
-		padding-left: 1em;
+		padding-left: 12em;
 	}
 	#correoPersonal{
-		padding-left: 1em;
+		padding-left: 7.4em;
 	}
 	/********************************************************************/
 }
