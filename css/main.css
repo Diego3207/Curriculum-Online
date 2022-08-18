@@ -447,7 +447,7 @@ img[title = "Facebook Icono"]{
 	/********************************************************************/
 	/*CABECERA IMAGEN*/
 	header:before{
-		height: 27em;
+		height: 27.2em;
 	}
 	/********************************************************************/
 
@@ -457,6 +457,12 @@ img[title = "Facebook Icono"]{
 	#tituloIntroduccion
 	{
 		margin-left: 2em;
+		font-size: 1.7em;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 20px;
+		height: auto;
+		width: 250px;
 	}
 	.contIntroduccion
 	{
@@ -466,19 +472,44 @@ img[title = "Facebook Icono"]{
 	{
 		padding-top: 4em;
 	}
+	.itIntroduccionParrafo
+	{
+		font-size: 1.1em;
+	}
 	/********************************************************************/
 	/*CARRERA ACADEMICA (EDUCACION)*/
 	.contCarreraAcademica{
 		flex-direction: column;
 	}
+	.itTituloCarrera
+	{
+		font-size: 1.7em;
+	}
 	.itContCarrera{
 		width: 100%;
+		height: 400px;
 	}
 	.itContAcademica{
 		width: 100%;
 	}
 	.itUniversidad{
 		margin-left: 1em;
+	}
+	.itTituloAcademica
+	{
+		font-size: 1.7em;
+	}
+	.itPreparatoria
+	{
+		font-size: 1.4em;
+	}
+	.itUniversidad
+	{
+		font-size: 1.4em;
+	}
+	.itContUniversidad
+	{
+		height: 400px;
 	}
 	/********************************************************************/
 
@@ -493,7 +524,13 @@ img[title = "Facebook Icono"]{
 	/********************************************************************/
 	/*CONOCIMIENTOS*/
 	.tituloConocimientos{
-		margin-left: 0.8em;
+		margin-left: 1em;
+		font-size: 1.7em;
+		width: 250px;
+		height: auto;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 50px;
 	}
 	.contConocimientosFondo{
 		width: 100%;
@@ -506,7 +543,7 @@ img[title = "Facebook Icono"]{
 	}
 	.itCirculo{
 		/*border: 1px solid yellow;*/
-		margin-left: 4em;
+		margin-left: 3em;
 		width: 150px;
 		height: 150px;
 	}
@@ -550,21 +587,40 @@ img[title = "Facebook Icono"]{
 	.tituloExperiencia{
 		margin-left: 1em;
 		padding-left: 1.5em;
-		width: 7em;
+		width: 300px;
+		font-size: 1.7em;
+		padding: 10px 0 10px 45px;
 	}
 	.contPadreExperiencia{
 		flex-direction: column;
+		height: 600px;
 	}
 	.contPadreExperiencia{
-		height: 90em;
+		height: 67em;
 	}
 	.itContCommunity{
 		width: 100%;
-		height: 40em;
+		height: 500px;
 	}
 	.itContVendedor{
 		width: 100%;
-		height: 40em;
+		height: 600px;
+	}
+	.itTituloComunnity
+	{
+		font-size: 1.6em;
+	}
+	.itParrafoCommunity
+	{
+		font-size: 1.3em;
+	}
+	.itTituloVendedor
+	{
+		font-size: 1.6em;
+	}
+	.itParrafoVendedor
+	{
+		font-size: 1.3em;
 	}
 	/********************************************************************/
 
@@ -572,13 +628,16 @@ img[title = "Facebook Icono"]{
 	/*APTITUDES*/
 	.tituloAptitudes{
 		margin-left: 1em;
+		font-size: 1.7em;
+		width: 200px;
+		padding: 10px 0 10px 40px;
 	}
 	.cuadroAptitudes{
-		height: 35em;
+		height: 32em;
 		width: 100%;
 	}
 	.parrafoAptitudes{
-		font-size: 1.3em;
+		font-size: 1.2em;
 	}
 	/********************************************************************/
 
@@ -594,6 +653,7 @@ img[title = "Facebook Icono"]{
 	}
 	#tituloRedesSociales{
 		padding-left: 0.3em;
+		font-size: 1.9em;
 	}
 	#contRedesSociales{
 		width: 100%;
@@ -605,13 +665,16 @@ img[title = "Facebook Icono"]{
 		width: 100%;
 	}
 	#tituloContacto{
-		padding-left: 5.5em;
+		padding-left: 8.5em;
+		font-size: 1.9em;
 	}
 	#numeroPersonal{
-		padding-left: 12em;
+		padding-left: 9.4em;
+		font-size: 1.5em;
 	}
 	#correoPersonal{
-		padding-left: 7.4em;
+		padding-left: 4.9em;
+		font-size: 1.5em;
 	}
 	/********************************************************************/
 	/********************************************************************/
