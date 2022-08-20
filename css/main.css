@@ -447,7 +447,7 @@ img[title = "Facebook Icono"]{
 	/********************************************************************/
 	/*CABECERA IMAGEN*/
 	header:before{
-		height: 27.2em;
+		height: 400px;
 	}
 	/********************************************************************/
 
@@ -650,6 +650,7 @@ img[title = "Facebook Icono"]{
 	{
 		margin-left: 0em;
 		border-left: 5px solid white;
+		border-bottom: 5px solid #0FC2C0;
 	}
 	#tituloRedesSociales{
 		padding-left: 0.3em;
@@ -665,15 +666,15 @@ img[title = "Facebook Icono"]{
 		width: 100%;
 	}
 	#tituloContacto{
-		padding-left: 8.5em;
+		padding-left: 200px;
 		font-size: 1.9em;
 	}
 	#numeroPersonal{
-		padding-left: 9.4em;
+		padding-left: 180px;
 		font-size: 1.5em;
 	}
 	#correoPersonal{
-		padding-left: 4.9em;
+		padding-left: 80px;
 		font-size: 1.5em;
 	}
 	/********************************************************************/
